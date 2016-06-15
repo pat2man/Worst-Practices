@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CEF468B01D10F34E00991DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF468AF1D10F34E00991DC3 /* AppDelegate.swift */; };
-		CEF468B21D10F34E00991DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF468B11D10F34E00991DC3 /* ViewController.swift */; };
 		CEF468B51D10F34E00991DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF468B31D10F34E00991DC3 /* Main.storyboard */; };
 		CEF468B71D10F34E00991DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF468B61D10F34E00991DC3 /* Assets.xcassets */; };
 		CEF468BA1D10F34E00991DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF468B81D10F34E00991DC3 /* LaunchScreen.storyboard */; };
+		CEF468C21D10F38300991DC3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF468C11D10F38300991DC3 /* TableViewController.swift */; };
+		CEF468C41D10F3B600991DC3 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF468C31D10F3B600991DC3 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEF468AC1D10F34E00991DC3 /* Worst Practices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Worst Practices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF468AF1D10F34E00991DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEF468B11D10F34E00991DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEF468B41D10F34E00991DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEF468B61D10F34E00991DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF468B91D10F34E00991DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF468BB1D10F34E00991DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF468C11D10F38300991DC3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CEF468C31D10F3B600991DC3 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				CEF468AF1D10F34E00991DC3 /* AppDelegate.swift */,
-				CEF468B11D10F34E00991DC3 /* ViewController.swift */,
 				CEF468B31D10F34E00991DC3 /* Main.storyboard */,
 				CEF468B61D10F34E00991DC3 /* Assets.xcassets */,
 				CEF468B81D10F34E00991DC3 /* LaunchScreen.storyboard */,
 				CEF468BB1D10F34E00991DC3 /* Info.plist */,
+				CEF468C11D10F38300991DC3 /* TableViewController.swift */,
+				CEF468C31D10F3B600991DC3 /* PhotoViewController.swift */,
 			);
 			path = "Worst Practices";
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF468B21D10F34E00991DC3 /* ViewController.swift in Sources */,
 				CEF468B01D10F34E00991DC3 /* AppDelegate.swift in Sources */,
+				CEF468C21D10F38300991DC3 /* TableViewController.swift in Sources */,
+				CEF468C41D10F3B600991DC3 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
